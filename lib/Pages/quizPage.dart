@@ -240,7 +240,7 @@ class _QuizPageState extends State<QuizPage> {
         });
   }
 
-  int _time = 100;
+  int _time = 30;
   void _startTimer() {
     Timer.periodic(
       Duration(seconds: 1),

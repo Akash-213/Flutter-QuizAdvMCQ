@@ -12,7 +12,7 @@ class TimerArea extends StatelessWidget {
     int seconds = time - minutes * 60;
     String secondsS = (seconds % 60).toString().padLeft(2, '0');
     Color timerAreaColor;
-    if (time > 30) {
+    if (time > 10) {
       timerAreaColor = Colors.amber[300];
     } else {
       timerAreaColor = Colors.red[400];
